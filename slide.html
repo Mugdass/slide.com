@@ -283,15 +283,16 @@ function showSlides() {
 <script>
 function SubForm (){
     $.ajax({
-        url:'https://api.apispreadsheets.com/data/18507/',
+        url:'https://api.apispreadsheets.com/data/18658/',
         type:'post',
         data:$("#myForm").serializeArray(),
         success: function(){
-          alert("Jūsų forma pateikta!:)")
-	  alert("Labai ačiū!")
+          alert("Jūsų forma pateikta!")
+	  alert("Dekojame!")
         },
         error: function(){
-          alert("Jūsų forma pateikta!")
+          alert("Klaida!")
+          alert("Pabandykite Isnaujo.")
         }
     });
 }
