@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serverless Form</title>
+<script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
+</head>
+<body>
+
+
+<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+	
+  
+  
+  <a class="button" href="https://mugdass.github.io/lithuanianmain.github.io/index.html">Pagrindinis Puslapis</a>
+
+				<a href="https://mugdass.github.io/lithuanianmain.github.io/apiemane.html" class="button">Apie Autoriu</a>
+
+				<a href="https://mugdass.github.io/zaidimokurimas.com/zaidimokurimas.html " class="button">Žaidimo KŪRIMAS</a>
+								
+				<a href="https://mugdass.github.io/lithuanianmain.github.io/atsiliepimas.html" class="button">Pateikti atsiliepimą</a>
+					
+				<a href="https://mugdass.github.io/viskaskita.com/viskaskita.html  " class="button">Kiti Darbai</a>	
+	
+		
+
+
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Vaizdas Nr.(1/12 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 25px;
+  width: 25px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.9s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+	
+
+
+
+<h2>        ░▒▓█►─═  ๓ᗩᵗÃş 𝓢ｌᎥ𝕕𝓔𝕊ʰ𝓸ⓦ ═─◄█▓▒░</h2>
+<p>          🌌  🎀  𝒢𝓇𝒶ž𝒾❁𝓈 𝒥𝓊𝓂𝓈 𝒟𝒾𝑒𝓃🌞𝓈 ❣❢❢  🎀  🌌.</p>
+
+<h22>              Užpildykite formą žemiau! </h22>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 12</div>
+  <img src="img_nature_wide.jpg" style="width:100%">
+  <div class="text">Nr.1</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 12</div>
+  <img src="img_snow_wide.jpg" style="width:100%">
+  <div class="text">Nr.2</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 12</div>
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="text">Nr.3</div>
+</div>
+
+
+
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 12</div>
+  <img src="img1.jpg" style="width:100%">
+  <div class="text">Nr.4</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 12</div>
+  <img src="img2.jpg" style="width:100%">
+  <div class="text">Nr.5</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 12</div>
+  <img src="img3.jpg" style="width:100%">
+  <div class="text">Nr.6</div>
+</div>
+
+
+
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 12</div>
+  <img src="img4.jpg" style="width:100%">
+  <div class="text">Nr.7</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 12</div>
+  <img src="img6.jpg" style="width:100%">
+  <div class="text">Nr.8</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 12</div>
+  <img src="img10.jpg" style="width:100%">
+  <div class="text">Nr.9</div>
+</div>
+
+
+
+
+
+
+<div class="mySlides fade">
+  <div class="numbertext">10 / 12</div>
+  <img src="img11.jpg" style="width:100%">
+  <div class="text">Nr.10</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">11 / 12</div>
+  <img src="img12.jpg" style="width:100%">
+  <div class="text">Nr.11</div>
+</div>
+
+
+<div class="mySlides fade">
+  <div class="numbertext">11 / 12</div>
+  <img src="img8.jpg" style="width:100%">
+  <div class="text">Nr.12</div>
+</div>
+
+
+
+
+
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 6000); // Change image every 6 seconds
+}
+</script>
+
+
+
+
+
+
+    <h2>Kontaktu Forma</h2>
+
+
+<p> Prasome Uzpildyti!</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<form id="contactForm" name="serverless-form">
+
+    <form action="" method="POST">
+      <label for="pirmasvardas">Pirmas Vardas:</label>
+      <input type="text" id="pirmasvardas" name="pirmasvardas" value="">
+      <label for="antrasvardas">Pavarde:</label>
+      <input type="text" id="antrasvardas" name="antrasvardas" value="">
+      
+<br>
+
+
+
+<label>Pastas</label>
+
+
+    <input type="text" id="pastas" name="pastas" value="">
+
+
+<label>Telefonas</label>
+    
+
+
+    <input type="text" id="telefonas" name="telefonas" value="">
+    
+
+
+<br>
+
+<label> Amzius </label>
+
+
+    <input type="text" id="amzius" name="amzius" value="">
+
+
+<label> Salis </label>
+    
+
+
+    <input type="text" id="salis" name="salis" value="">
+    
+
+
+<br>
+
+     
+
+
+
+<label> Miestas </label>
+
+
+    <input type="text" id="miestas" name="miestas" value="">
+
+
+<label>Pastokodas</label>
+    
+
+
+    <input type="text" id="pastokodas" name="pastokodas" value="">
+    
+
+
+<br>
+
+<label> Gatves Adresas </label>
+
+
+
+    <input type="text" id="gatvesadresas" name="gatvesadresas" value=""
+
+
+
+   <br>
+
+
+
+<label> Buto Bumeris </label>
+
+
+
+    <input type="text" id="butonumeris" name="butonumeris" value=""
+
+
+
+   <br>
+
+
+
+    <label> Pranesimas </label>
+    
+
+    <textarea name="pranesimas">
+    </textarea>
+    <br/>
+    <br/>
+
+
+
+
+
+
+
+
+<button onclick="SubForm()">Submit</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form> 
+    
+
+
+
+
+<script>
+
+
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/18658/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          alert("Your Form has been Submitted!")
+	  alert("Thank you very much!")
+        },
+        error: function(){
+          alert("Just Forma Pateikta!")
+          alert("Dekojame!")
+        }
+    });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        var spinner = $('#loader');
+        const scriptURLC ='https://script.google.com/macros/s/AKfycbzdbSL7Koyv__AvSKizjBRYG5trQUA-1nxzdvvYdxW6MNNmn3EJfmMlSq34c78Xt5rpdQ/exec'
+        const serverlessForm = document.forms['serverless-form'];
+
+        serverlessForm.addEventListener('submit', e => {
+            e.preventDefault();
+            spinner.show();
+
+
+            fetch(scriptURLC, {
+                    method: 'POST',
+                    body: new FormData(serverlessForm)
+                })
+                .then(res => {
+
+                    console.log(res);
+                    spinner.hide();
+
+                    if (res['status'] == 200) {
+                        swal("Your form has been submitted!",
+                            "We will get back to you soon. Have a great day!", "success");
+                        return true;
+
+                    } else {
+                        swal("Something went wrong!", "Please try after some time", "error");
+
+                    }
+                    document.getElementById('submitForm').classList.remove('loading');
+                })
+                .catch(error => {
+
+                    swal("Something went wrong!", "Please try after some time", "error");
+                    // todo enable submit button
+
+                })
+        });
+    </script>
+
+
+
+
+
+</body>
+</html>
